@@ -12,7 +12,7 @@ import java.io.IOException;
 public class NasaTelegramBot extends TelegramLongPollingBot {
     public static final String BOT_TOKEN = "";
     public static final String BOT_USERNAME = "KosmoPicture_bot";
-    public static final String URI = "https://api.nasa.gov/planetary/apod?api_key=WW9WDPnKyGDcfv6oduTpUpTvyOi51kr06PQrNeAA";
+    public static final String URI = "https://api.nasa.gov/planetary/apod?api_key=";
     public static long CHAT_ID; // если прописан конкретно, то только этот пользователь сможет работать с нашим ботом.
 
     // конструктор произведёт автоматическую регистрацию при выходе в сеть
